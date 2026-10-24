@@ -1,62 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
+*{
+  margin:0;
+  padding:0;
   box-sizing: inherit;
 }
 
-html {
+html{
   font-size: 62.5%;
   box-sizing: border-box;
 }
 
-body {
+body{
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
 }
 
 /* LAYOUT */
 header {
-  position: relative;
+  position:relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
 }
 
-main {
+main{
   height: 65vh;
   color: #eee;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around
 }
 
-.left {
+.left{
   width: 52rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.right {
+.right{
   width: 52rem;
   font-size: 2rem;
 }
 
-/* ELEMENTS STYLE */
-h1 {
+/* Element Styling */
+
+h1{
   font-size: 4rem;
-  text-align: center;
+  text-align: center ;
   position: absolute;
   width: 100%;
   top: 52%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
 }
 
-.number {
+.number{
   background: #eee;
   color: #333;
   font-size: 6rem;
@@ -64,12 +64,12 @@ h1 {
   padding: 3rem 0rem;
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: 0%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%,50%);
 }
 
-.between {
+.between{
   font-size: 1.4rem;
   position: absolute;
   top: 2rem;
